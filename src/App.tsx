@@ -23,7 +23,7 @@ function App(): JSX.Element {
 	return (
 		<>
 			<div className="container-fluid page-container">
-				<Router>
+				<Router basename={window.location.pathname || ""}>
 					<MobileNavbar />
 					<div className="page-content-wrapper flex-row row">
 						<div className="col-md-0 col-lg-2 col-xl-2 vertical-menu-div">
@@ -34,19 +34,19 @@ function App(): JSX.Element {
 								<Route exact path="/">
 									<Overview />
 								</Route>
-								<Route exact path="/orders">
+								<Route exact path="/orders" component={Orders}>
 									<Orders />
 								</Route>
-								<Route exact path="/products">
+								<Route exact path="/products" component={Products}>
 									<Products />
 								</Route>
-								<Route exact path="/settings">
+								<Route exact path="/settings" component={Settings}>
 									<Settings />
 								</Route>
-								<Route exact path="/shipment">
+								<Route exact path="/shipment" component={Shipment}>
 									<Shipment />
 								</Route>
-								<Route exact path="/employee">
+								<Route exact path="/employee" component={Employee}>
 									<Employee />
 								</Route>
 								<Route exact path="*">
