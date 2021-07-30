@@ -23,7 +23,7 @@ function App(): JSX.Element {
 	return (
 		<>
 			<div className="container-fluid page-container">
-				<Router basename="/dashboard">
+				<Router>
 					<MobileNavbar />
 					<div className="page-content-wrapper flex-row row">
 						<div className="col-md-0 col-lg-2 col-xl-2 vertical-menu-div">
