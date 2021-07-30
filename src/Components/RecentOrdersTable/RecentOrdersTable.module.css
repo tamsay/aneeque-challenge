@@ -1,0 +1,45 @@
+.wrapper{
+    width: 100%;
+    margin: 0rem;
+    padding: 0rem 1rem 0rem 0rem;
+}
+.content{
+   justify-content: space-between;
+   align-items: flex-start;
+   padding: 0rem 0rem;
+   margin-bottom: 0.625rem;
+}
+.content div{
+    min-width: 30%;
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.imageDiv{
+    min-width: 17.5% !important;
+}
+.imageDiv img{
+    width: 100%;
+    background-color: #f6fafe;
+    padding: 0.25rem;
+    border-radius: 4px;
+}
+.productNameDiv{
+    display: flex;
+    flex-direction: column;
+    min-width: 50% !important;
+    color: #00387a;
+}
+.productName{
+    margin: 0rem;
+}
+.content small{
+    color: #a2a8bb;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+.productPrice{
+    color: green;
+    min-width: 30%;
+}
+

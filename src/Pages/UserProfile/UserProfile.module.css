@@ -1,0 +1,401 @@
+
+.componentWrapper{
+    height: 100%;
+    width: 100%;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    margin: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header Section */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+}
+.iconDiv{
+    border-radius: 50%;
+    border: 2px solid #eef2f8;
+    padding: 0.5rem;
+    margin: 0rem;
+    width: auto;
+}
+.iconDiv .icon{
+    font-size: 1.5rem;
+}
+
+/* User Details Section */
+.userDetailsDiv{
+    align-items: center;
+    margin-top: 0rem;
+}
+.imageDiv{
+    display: flex;
+    width: 30%
+}
+.imageDiv img{
+    width: 100%;
+}
+.profileName{
+    font-weight: bold;
+    color: #00387a;
+    font-size: 1.375rem;
+}
+
+/* Profile Counts Section */
+.profileCounts{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0rem;
+    margin: 0rem 0rem 0.5rem 0rem;
+    border: 2px solid #eef2f8;
+    border-radius: 1rem;
+}
+.profileCounts > :nth-child(1){
+    border-right: 2px solid #eef2f8;
+}
+.countsDiv{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0rem 1rem;
+}
+.countsIcon{
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    color: #00387a;
+    background-color: #f6fafe;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+.countsDetails{
+    align-items: flex-start;
+    width: auto;
+}
+.countsDetails p{
+    margin: 0rem;
+    padding: 0rem;
+}
+.countsValue{
+    font-weight: bold;
+    color: #00387a;
+    font-size: 1rem;
+}
+.countsCategory{
+    font-weight: bold;
+    color: #7194c1;
+    font-size: 0.75rem;
+}
+
+
+/* Reputation Section */
+.reputationDiv{
+    margin-top: 0.875rem;
+}
+
+.reputationDiv h5{
+    font-weight: bold;
+    color: #00387a;
+    font-size: 1.125rem;
+    margin: 0rem;
+}
+
+.reputationCountsDiv{
+    border: 2px solid #eef2f8;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    margin-top: 0.875rem;
+}
+.reputationIcon{
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    color: #e48757;
+    background-color: #f9f5f0;
+    padding: 0rem 0.5rem;
+    border-radius: 4px;
+}
+.reputationCountsDetails{
+    justify-content: space-around;
+}
+.reputationValuesDiv{
+    justify-content: space-between;
+    align-items: center;
+    color: #00387a;
+    font-weight: bold;
+    padding: 0rem;
+    margin: 0rem;
+}
+.reputationValue{
+    font-size: 1rem;
+    padding: 0rem;
+    margin: 0rem;
+}
+.reputationPercent{
+    font-size: 0.875rem;
+    padding: 0rem;
+    margin: 0rem;
+}
+.reputationIndicatorDiv{
+    width: 100%;
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0rem;
+    background-color: #ebf3fc;
+    display: flex;
+    align-items: center;
+    height: 0.25rem
+}
+.reputationIndicator{
+    height: 0.25rem;
+    background-color: #e48757;
+}
+
+/* Recent Orders Section */
+.recentOrdersDiv{
+    margin-top: 1rem;
+    height: 30vh;
+}
+.recentOrdersHeader{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.recentOrdersHeader p{
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #00387a;
+    padding: 0rem;
+    margin: 0rem;
+    line-height: 1;
+}
+.recentOrdersHeader a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #00387a;
+    line-height: 1;
+}
+.recentOrdersHeader a:hover{
+    color: #357ae2;
+}
+.recentOrdersTableDiv{
+    width: 100%;
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 40vh;
+    margin: 0.75rem 0rem 0rem 0rem;
+    border: 2px solid #eef2f8;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+@media (min-width: 576px){
+    .componentWrapper{
+        height: 100%;
+        width: 100%;
+        padding: 1rem 1rem;
+        margin: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 991px){
+
+    .componentWrapper{
+        height: 100%;
+        width: 100%;
+        padding: 1rem 1.25rem 1rem 1.5rem;
+        margin: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    /* Header Section */
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .iconDiv{
+        border-radius: 50%;
+        border: 2px solid #eef2f8;
+        padding: 0.5rem;
+        margin: 0rem;
+        width: auto;
+    }
+    .iconDiv .icon{
+        font-size: 1.5rem;
+    }
+    
+    /* User Details Section */
+    .userDetailsDiv{
+        align-items: center;
+        margin-top: 0rem;
+    }
+    .imageDiv{
+        display: flex;
+        width: 30%
+    }
+    .imageDiv img{
+        width: 100%;
+    }
+    .profileName{
+        font-weight: bold;
+        color: #00387a;
+        font-size: 1.375rem;
+    }
+    
+    /* Profile Counts Section */
+    .profileCounts{
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem 0rem;
+        margin: 0rem 0rem 0.5rem 0rem;
+        border: 2px solid #eef2f8;
+        border-radius: 1rem;
+    }
+    .profileCounts > :nth-child(1){
+        border-right: 2px solid #eef2f8;
+    }
+    .countsDiv{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0rem 1rem;
+    }
+    .countsIcon{
+        font-size: 2.5rem;
+        margin-right: 1rem;
+        color: #00387a;
+        background-color: #f6fafe;
+        padding: 0.5rem;
+        border-radius: 4px;
+    }
+    .countsDetails{
+        align-items: flex-start;
+        width: auto;
+    }
+    .countsDetails p{
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .countsValue{
+        font-weight: bold;
+        color: #00387a;
+        font-size: 1rem;
+    }
+    .countsCategory{
+        font-weight: bold;
+        color: #7194c1;
+        font-size: 0.75rem;
+    }
+    
+    
+    /* Reputation Section */
+    .reputationDiv{
+        margin-top: 0.875rem;
+    }
+    
+    .reputationDiv h5{
+        font-weight: bold;
+        color: #00387a;
+        font-size: 1.125rem;
+        margin: 0rem;
+    }
+    
+    .reputationCountsDiv{
+        border: 2px solid #eef2f8;
+        border-radius: 0.5rem;
+        padding: 0.75rem;
+        margin-top: 0.875rem;
+    }
+    .reputationIcon{
+        font-size: 2.5rem;
+        margin-right: 1rem;
+        color: #e48757;
+        background-color: #f9f5f0;
+        padding: 0rem 0.5rem;
+        border-radius: 4px;
+    }
+    .reputationCountsDetails{
+        justify-content: space-around;
+    }
+    .reputationValuesDiv{
+        justify-content: space-between;
+        align-items: center;
+        color: #00387a;
+        font-weight: bold;
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .reputationValue{
+        font-size: 1rem;
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .reputationPercent{
+        font-size: 0.875rem;
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .reputationIndicatorDiv{
+        width: 100%;
+        margin: 0rem 0rem 0rem 0rem;
+        padding: 0rem;
+        background-color: #ebf3fc;
+        display: flex;
+        align-items: center;
+        height: 0.25rem
+    }
+    .reputationIndicator{
+        height: 0.25rem;
+        background-color: #e48757;
+    }
+    
+    /* Recent Orders Section */
+    .recentOrdersDiv{
+        margin-top: 1rem;
+        height: 30vh;
+    }
+    .recentOrdersHeader{
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .recentOrdersHeader p{
+        font-weight: bold;
+        font-size: 1.125rem;
+        color: #00387a;
+        padding: 0rem;
+        margin: 0rem;
+        line-height: 1;
+    }
+    .recentOrdersHeader a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.875rem;
+        color: #00387a;
+        line-height: 1;
+    }
+    .recentOrdersHeader a:hover{
+        color: #357ae2;
+    }
+    .recentOrdersTableDiv{
+        width: 100%;
+        display: flex;
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 40vh;
+        margin: 0.75rem 0rem 0rem 0rem;
+        border: 2px solid #eef2f8;
+        border-radius: 0.5rem;
+        padding: 1rem;
+    }
+}

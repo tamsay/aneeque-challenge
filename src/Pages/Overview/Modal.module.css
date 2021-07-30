@@ -1,0 +1,51 @@
+.no-result-modal-wrapper{
+    background-color: transparent;
+    /* background-color: #161a1a; */
+}
+.no-result-modal-wrapper .modal-content{
+    background-color: #161a1a;
+    color: white;
+    border: none;
+    height: 62.5vh;
+    width: 100%;
+}
+.no-result-modal-wrapper .no-result-modal-header{
+    border: none;
+    display: flex;
+    justify-content:flex-end;
+}
+.no-result-modal-wrapper .no-result-modal-header i{
+    border-radius: 50%;
+    border: 1px solid #505454;
+    color: #505454;
+    background-color: white;
+    font-size: 1.5rem;
+}
+.no-result-modal-wrapper .no-result-modal-body{
+    background-color: transparent;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
+.no-result-modal-wrapper .no-result-modal-body .modal-error-header{
+    font-size: 3rem;
+    color: #2DCEEF;
+    font-weight: bold;
+}
+.no-result-modal-wrapper .no-result-modal-body .modal-error-message{
+    font-size: 1.125rem;
+    color: white;
+}
+.no-result-modal-wrapper .no-result-modal-body .modal-error-button{
+    background: transparent linear-gradient(269deg, #9B2DEF 0%, #2D9BEF 61%, #35EDFB 100%) 0% 0% no-repeat padding-box;
+    border-radius: 2rem;
+    border: none;
+    padding: 0.5rem 5rem;
+    margin: 0rem 1rem 0rem 0rem;
+    opacity: 1;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+}

@@ -1,0 +1,60 @@
+body > div.fade.modal.show{
+    background-color: transparent;
+}
+ .modal-dialog{
+    margin: 0rem;
+    padding: 0rem;
+}
+#mobile-user-modal-wrapper{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    padding: 0rem;
+}
+#menu-items-modal-wrapper{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    margin-left: right;
+    padding: 0rem;
+}
+.modal-wrapper .modal-content{
+    border: none;
+    height: 100%;
+    margin: 0rem;
+    padding: 0rem;
+    width: 100%;
+}
+.modal-wrapper .modal-header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+    border: none;
+}
+.modal-wrapper .modal-body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+@media (min-width: 576px){
+    #mobile-user-modal-wrapper{
+        background-color: transparent;
+        width: 50%;
+        height: 100%;
+        margin-left: auto;
+        padding: 0rem;
+    }
+    #menu-items-modal-wrapper{
+        background-color: transparent;
+        width: 50%;
+        height: 100%;
+        margin-left: right;
+        padding: 0rem;
+    }
+}

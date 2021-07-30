@@ -1,0 +1,48 @@
+#page-container{
+    /* background-color: rgba(0, 0, 0, 0); */
+  background-color: #eef2f896;
+    padding: 0.5rem 0.5rem;
+}
+a{
+    color: white;
+    /* border-bottom: 1px solid white; */
+    margin: 0rem 1rem;
+    padding: 0rem;
+    font-weight: bold;
+}
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.dropdown-menu a{
+    margin: 0rem;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+.dropdown-menu a:hover{
+    color: black;
+}
+
+.toggler{
+    padding: 0rem;
+    margin: 0rem;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+}
+.profileIcon{
+    font-size: 2rem;
+}
+.closeIcon{
+    font-size: 1.5rem;
+}
+.navBrand{
+    color: black;
+}
+
+@media (min-width: 992px) { 
+    #page-container{
+        display: none;
+    }
+}
