@@ -28,7 +28,7 @@ const VerticalMenu = (): JSX.Element => {
 					<h5 className={cx(styles.menuHeader)}>Menu</h5>
 					<ul>
 						<li className={cx(styles.active)} >
-							<a className={cx(styles.active)} href="/">
+							<a className={cx(styles.active)} href="#">
 								<Icon className={cx(styles.icon)} icon={squaresFourFill}  />			<span>Overview</span>
 							</a>
 						</li>
