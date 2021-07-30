@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Products.module.css";
-import cx from "classnames";
+
 
 const Products = (): JSX.Element => {
 	return (

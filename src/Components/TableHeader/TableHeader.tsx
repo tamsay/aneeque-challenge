@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./TableHeader.module.css";
 import cx from "classnames";
 
-const TableHeader = () => {
+const TableHeader = (): JSX.Element => {
 	return (
 		<>
 			<div className={cx(styles.wrapper)}>

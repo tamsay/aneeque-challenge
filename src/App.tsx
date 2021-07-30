@@ -19,7 +19,7 @@ import Employee from "./Pages/Employee/Employee";
 import Page404 from "./Pages/Page404/Page404";
 import VerticalMenu from "./Components/VerticalMenu/VerticalMenu";
 import UserProfile from "./Pages/UserProfile/UserProfile";
-function App() {
+function App(): JSX.Element {
 	return (
 		<>
 			<div className="container-fluid page-container">

@@ -1,10 +1,9 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState } from "react";
 import styles from "./MobileNavbar.module.css";
 import "./MobileNavbar.css";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import cx from "classnames";
 import { Button, Modal } from "react-bootstrap";
 import { Icon, InlineIcon } from "@iconify/react";

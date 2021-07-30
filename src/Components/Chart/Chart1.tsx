@@ -21,7 +21,7 @@ const state = {
 	],
 };
 
-const Chart1 = () => {
+const Chart1 = (): JSX.Element => {
 	return (
 		<div className={cx(styles.wrapper)}>
 			<Bar className={styles.chart}
