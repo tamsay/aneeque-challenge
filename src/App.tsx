@@ -16,14 +16,14 @@ import Products from "./Pages/Products/Products";
 import Settings from "./Pages/Settings/Settings";
 import Shipment from "./Pages/Shipment/Shipment";
 import Employee from "./Pages/Employee/Employee";
-import Page404 from "./Pages/Page404/Page404";
+// import Page404 from "./Pages/Page404/Page404";
 import VerticalMenu from "./Components/VerticalMenu/VerticalMenu";
 import UserProfile from "./Pages/UserProfile/UserProfile";
 function App(): JSX.Element {
 	return (
 		<>
 			<div className="container-fluid page-container">
-				<Router>
+				<Router basename="/index.html">
 					<MobileNavbar />
 					<div className="page-content-wrapper flex-row row">
 						<div className="col-md-0 col-lg-2 col-xl-2 vertical-menu-div">
@@ -49,7 +49,7 @@ function App(): JSX.Element {
 								<Route exact path="/employee" component={Employee} />
 								{/* <Employee />
 								</Route> */}
-								<Route exact path="*" component={Page404} />
+								{/* <Route exact path="*" component={Page404} /> */}
 								{/* <Page404 />
 								</Route> */}
 							</Switch>	
