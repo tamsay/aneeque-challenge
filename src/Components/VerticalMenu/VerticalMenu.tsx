@@ -33,19 +33,19 @@ const VerticalMenu = (): JSX.Element => {
 							</a>
 						</li>
 						<li>
-							<a href="/orders">
+							<a href="#">
 								<Icon className={cx(styles.icon)} icon={page20Filled}  />
 								<span>Orders</span>
 							</a>
 						</li>
 						<li>
-							<a href="/products">
+							<a href="#">
 								<Icon className={cx(styles.icon)} icon={shoppingBag}  />
 								<span>Products</span>
 							</a>
 						</li>
 						<li>
-							<a href="/settings">
+							<a href="#">
 								<Icon className={cx(styles.icon)} icon={settingsFilled}  />
 								<span>Settings</span>
 							</a>
@@ -57,13 +57,13 @@ const VerticalMenu = (): JSX.Element => {
 					<h5 className={cx(styles.menuHeader)}>Business</h5>
 					<ul>
 						<li >
-							<a href="/shipment">
+							<a href="#">
 								<Icon className={cx(styles.icon)} icon={paperPlaneTiltFill}  />
 								<span>Shipment</span>
 							</a>
 						</li>
 						<li>
-							<a href="/employee">
+							<a href="#">
 								<Icon className={cx(styles.icon)} icon={multipleUsers}  />
 								<span>Employee</span>
 							</a>
