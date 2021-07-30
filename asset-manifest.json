@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/aneeque-challenge/static/css/main.c23ac847.chunk.css",
-    "main.js": "/aneeque-challenge/static/js/main.eb69fb0b.chunk.js",
-    "main.js.map": "/aneeque-challenge/static/js/main.eb69fb0b.chunk.js.map",
-    "runtime-main.js": "/aneeque-challenge/static/js/runtime-main.786bc7ee.js",
-    "runtime-main.js.map": "/aneeque-challenge/static/js/runtime-main.786bc7ee.js.map",
+    "main.css": "/aneeque-challenge/static/css/main.8bfaca58.chunk.css",
+    "main.js": "/aneeque-challenge/static/js/main.46e19feb.chunk.js",
+    "main.js.map": "/aneeque-challenge/static/js/main.46e19feb.chunk.js.map",
+    "runtime-main.js": "/aneeque-challenge/static/js/runtime-main.d1b4a55d.js",
+    "runtime-main.js.map": "/aneeque-challenge/static/js/runtime-main.d1b4a55d.js.map",
     "static/css/2.fb17aa6d.chunk.css": "/aneeque-challenge/static/css/2.fb17aa6d.chunk.css",
-    "static/js/2.c3aabe59.chunk.js": "/aneeque-challenge/static/js/2.c3aabe59.chunk.js",
-    "static/js/2.c3aabe59.chunk.js.map": "/aneeque-challenge/static/js/2.c3aabe59.chunk.js.map",
-    "static/js/3.e204a578.chunk.js": "/aneeque-challenge/static/js/3.e204a578.chunk.js",
-    "static/js/3.e204a578.chunk.js.map": "/aneeque-challenge/static/js/3.e204a578.chunk.js.map",
+    "static/js/2.8a44ccff.chunk.js": "/aneeque-challenge/static/js/2.8a44ccff.chunk.js",
+    "static/js/2.8a44ccff.chunk.js.map": "/aneeque-challenge/static/js/2.8a44ccff.chunk.js.map",
+    "static/js/3.d701b604.chunk.js": "/aneeque-challenge/static/js/3.d701b604.chunk.js",
+    "static/js/3.d701b604.chunk.js.map": "/aneeque-challenge/static/js/3.d701b604.chunk.js.map",
     "index.html": "/aneeque-challenge/index.html",
     "static/css/2.fb17aa6d.chunk.css.map": "/aneeque-challenge/static/css/2.fb17aa6d.chunk.css.map",
-    "static/css/main.c23ac847.chunk.css.map": "/aneeque-challenge/static/css/main.c23ac847.chunk.css.map",
-    "static/js/2.c3aabe59.chunk.js.LICENSE.txt": "/aneeque-challenge/static/js/2.c3aabe59.chunk.js.LICENSE.txt"
+    "static/css/main.8bfaca58.chunk.css.map": "/aneeque-challenge/static/css/main.8bfaca58.chunk.css.map",
+    "static/js/2.8a44ccff.chunk.js.LICENSE.txt": "/aneeque-challenge/static/js/2.8a44ccff.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.786bc7ee.js",
+    "static/js/runtime-main.d1b4a55d.js",
     "static/css/2.fb17aa6d.chunk.css",
-    "static/js/2.c3aabe59.chunk.js",
-    "static/css/main.c23ac847.chunk.css",
-    "static/js/main.eb69fb0b.chunk.js"
+    "static/js/2.8a44ccff.chunk.js",
+    "static/css/main.8bfaca58.chunk.css",
+    "static/js/main.46e19feb.chunk.js"
   ]
 }
