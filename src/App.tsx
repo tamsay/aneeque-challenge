@@ -23,7 +23,7 @@ function App(): JSX.Element {
 	return (
 		<>
 			<div className="container-fluid page-container">
-				<Router basename={window.location.pathname || ""}>
+				<Router>
 					<MobileNavbar />
 					<div className="page-content-wrapper flex-row row">
 						<div className="col-md-0 col-lg-2 col-xl-2 vertical-menu-div">
@@ -31,27 +31,27 @@ function App(): JSX.Element {
 						</div>
 						<div className="col-md-12 col-lg-10 col-xl-7 main-content-div">
 							<Switch>
-								<Route exact path="/">
-									<Overview />
-								</Route>
-								<Route exact path="/orders" component={Orders}>
-									<Orders />
-								</Route>
-								<Route exact path="/products" component={Products}>
-									<Products />
-								</Route>
-								<Route exact path="/settings" component={Settings}>
-									<Settings />
-								</Route>
-								<Route exact path="/shipment" component={Shipment}>
-									<Shipment />
-								</Route>
-								<Route exact path="/employee" component={Employee}>
-									<Employee />
-								</Route>
-								<Route exact path="*">
-									<Page404 />
-								</Route>
+								<Route exact path="/" component={Overview} />
+								{/* <Overview />
+								</Route> */}
+								<Route exact path="/orders" component={Orders} />
+								{/* <Orders />
+								</Route> */}
+								<Route exact path="/products" component={Products} />
+								{/* <Products />
+								</Route> */}
+								<Route exact path="/settings" component={Settings} />
+								{/* <Settings />
+								</Route> */}
+								<Route exact path="/shipment" component={Shipment} />
+								{/* <Shipment />
+								</Route> */}
+								<Route exact path="/employee" component={Employee} />
+								{/* <Employee />
+								</Route> */}
+								<Route exact path="*" component={Page404} />
+								{/* <Page404 />
+								</Route> */}
 							</Switch>	
 						</div>
 						<div className="col-md-0 col-lg-0 col-xl-3 user-profile-div">
